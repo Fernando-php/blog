@@ -4,7 +4,7 @@
 <form action="{{route('insertar')}}" method="post">
     @csrf
 	@method('put')
-	<h3>Título</h3>
+	<h3>Título del artículo</h3>
 	<input type="text" size="50" name="titulo">
 	<br><br>Fecha: <input type="text" size="10" name="fecha" value="{{$fecha}}" readonly="readonly">
 	<br><h3>Contenido del articulo</h3>
