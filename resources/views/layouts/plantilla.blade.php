@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="contenedor">
-    <h1>Mi blog personal</h1>
+    <h1>Mi blog personal en laravel</h1>
     @yield('content')
     <br><a class="titulo" href="{{route('inicio')}}">Volver a Inicio</a>
   </div>
