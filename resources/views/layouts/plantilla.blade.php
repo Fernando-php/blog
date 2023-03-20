@@ -9,10 +9,10 @@
     <title>@yield('title')</title>
 </head>
 <body>
-    <div class="contenedor">
+  <div class="contenedor">
     <h1>Mi blog personal</h1>
     @yield('content')
     <br><a class="titulo" href="{{route('inicio')}}">Volver a Inicio</a>
-    </div>
+  </div>
 </body>
 </html>
