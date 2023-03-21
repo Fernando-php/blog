@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="StyleSheet" href="{{ URL::asset('css/estilos.css'); }}" type="text/css">
+    <link rel="StyleSheet" href="{{ URL::secure_asset('css/estilos.css'); }}" type="text/css">
     <title>@yield('title')</title>
 </head>
 <body>
